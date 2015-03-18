@@ -128,7 +128,7 @@
 
 /dev/block/mmcblk0p13     0660   system     radio
 /dev/block/mmcblk0p14     0660   system     radio
-/dev/umts*                0660   system     radio
+/dev/umts*                0660   radio     radio
 
 # USB Device
 /dev/usb/lp*              0660   system     usb
@@ -136,7 +136,7 @@
 
 # MIF
 /dev/block/mmcblk0p13     0660   system     radio
-/dev/umts*                0660   system     radio
+/dev/umts*                0660   radio     radio
 # DNT
 /dev/block/mmcblk0p15     0660   system     system
 

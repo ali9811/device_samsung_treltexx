@@ -755,6 +755,12 @@ on property:ro.debuggable=1
     chmod 0666 /sys/class/mhl/test_v2
     chmod 0666 /sys/class/mhl/connection
 
+service cpboot-daemon /sbin/cbd -d -tstem7400 -bl -ml -p 13
+    class main
+    user root
+    group radio cache inet misc audio sdcard_rw log sdcard_r shell
+    #seclabel u:r:cbd:s0
+
 # ARGOSD
 service argos-daemon /system/bin/argosd
     class main
