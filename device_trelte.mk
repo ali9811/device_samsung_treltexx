@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     init.samsung.rc \
     init.universal5433.rc \
     init.universal5433.usb.rc \
-    init.universal5433.wifi.rc \
     init.wifi.rc \
     ueventd.universal5433.rc
 

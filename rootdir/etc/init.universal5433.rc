@@ -1,5 +1,4 @@
 import init.universal5433.usb.rc
-import init.universal5433.wifi.rc
 import init.samsung.rc
 import init.carrier.rc
 import init.wifi.rc
